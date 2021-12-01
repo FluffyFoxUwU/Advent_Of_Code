@@ -1,0 +1,15 @@
+{
+  "configurations": [
+    {
+      "name": "Linux",
+      "intelliSenseMode": "linux-gcc-x64",
+      /* No need as C solution will mostly single source if possible */
+      "includePath": ["${workspaceRoot}/"],
+      "compilerArgs": [],
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "c11",
+      "cppStandard": "c++20"
+    }
+  ],
+  "version": 4
+}

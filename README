@@ -1,24 +1,23 @@
-This is my AoC repo
-
 Directory structure
 
 .
 ├── <year>
 │   └── <day number>p<part number> 
 │       ├── puzzle_input.txt <- Actual puzzle input (but i wont track it on github)
-│       ├── main.c     <--- main.* is the solution
-│       ├── main.lua   <-|
+│       ├── main.c           <--- main.* is the solution
+│       ├── main.lua         <-|
 │       └── test_input.txt   <- Test input 
 ...
 
 Programs will read input from stdin and output sole result on stdout
-
 Run it like `./main.lua < input_file.txt`
 
+Ouput is just a singular number  
 
+For C codes its usually can be compiled with `gcc -Wall main.c -o main` (the code runs/compiles on POSIX compliant compiler and OS)
+For Lua codes its runnable with `./main.lua` (chmod it if necessary and requires lua5.4 installed)
 
-
-
+Should always be compile/run from terminal not from IDE build option
 
 
 
