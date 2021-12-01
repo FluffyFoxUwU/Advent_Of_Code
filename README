@@ -1,0 +1,24 @@
+This is my AoC repo
+
+Directory structure
+
+.
+├── <year>
+│   └── <day number>p<part number> 
+│       ├── puzzle_input.txt <- Actual puzzle input (but i wont track it on github)
+│       ├── main.c     <--- main.* is the solution
+│       ├── main.lua   <-|
+│       └── test_input.txt   <- Test input 
+...
+
+Programs will read input from stdin and output sole result on stdout
+
+Run it like `./main.lua < input_file.txt`
+
+
+
+
+
+
+
+
