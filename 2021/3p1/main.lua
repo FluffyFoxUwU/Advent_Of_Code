@@ -30,3 +30,11 @@ end
 gamma = tonumber(gamma, 2)
 epsilon = tonumber(epsilon, 2)
 print(gamma * epsilon)
+
+
+
+
+
+
+
+

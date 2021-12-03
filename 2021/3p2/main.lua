@@ -72,3 +72,12 @@ for i=1, #lines[1] do
 end
 
 print(tonumber(resOxy, 2) * tonumber(oxygen, 2))
+
+
+
+
+
+
+
+
+
