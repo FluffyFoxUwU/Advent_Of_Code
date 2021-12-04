@@ -2,6 +2,7 @@ puzzle_input.txt
 *.o
 *.class
 *.luac
+main
 
 a.out
 
