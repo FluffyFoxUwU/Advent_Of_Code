@@ -35,6 +35,10 @@ cl_mem lookupObject = NULL;
 cl_mem outputPixels = NULL;
 
 int main() {
+  printf("OpenCL using C is incomplete and will never complete lol!");
+  if (true)
+    return;  
+  
   FILE *fp = fopen("kernel.cl", "r"); 
   char *source_str;
   size_t source_size; 
