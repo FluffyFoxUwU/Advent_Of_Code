@@ -1,4 +1,7 @@
 puzzle_input.txt
+a.txt
+b.txt
+t
 *.o
 *.class
 *.luac
