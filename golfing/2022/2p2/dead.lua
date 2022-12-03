@@ -1,6 +1,5 @@
 --Fox: 85 bytes
 a=0 for b in io.lines()do a=a+("ffB XC XA XA YB YC YC ZA ZB Z"):find(b)end;print(a/3)
-a=0 for b in io.lines()do a=a+b.find("ffB XC XA XA YB YC YC ZA ZB Z",b)end;print(a/3)
 
 --[[
 0b000 = ' '
