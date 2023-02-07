@@ -3,6 +3,7 @@
 
 qa:%s/\n/+<CR>$r q:%s/++/\r/g<CR>qbDi<C-R>=<C-R>"<CR><Esc>-@bq@b:sor n<CR>G3kdgg@a0@b
 
+# Not included
 paste -sd+ | sed s/++/\\n/g | bc | sort -n | tail -3 | paste -sd+ | bc
 qa:%s/\n/+_$r q:%s/++/\r/g_qbDi_=_"__-@bq@b:sor n_G3kdgg@a0@b
 
